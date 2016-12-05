@@ -1,0 +1,87 @@
+
+// MODULE C
+// Centered Quotation Module
+
+.module-c {
+	padding-top: 75px; 
+	padding-bottom: 75px; 
+	text-align: center;
+	text-transform: none;
+
+
+	img {
+		max-width: 75px;
+	}
+
+	.standard-quote {
+	background-color: $light-gray;
+	}
+
+
+	
+
+.user {
+
+	margin-top: 50px;
+	justify-content: center;
+
+
+	img{
+			max-width: 75px;
+			max-height: 75px;
+			display: block;
+			margin: 20px;
+			
+
+			@include media (">=tablet") {
+			margin-top: 0px;
+			display: inline-block;
+			margin-right: 20px;
+				}
+			}
+		
+
+
+	.new-name {
+			color: #53565a; 
+			margin-bottom: 0px;
+			text-transform: uppercase;
+			font-size: 1em;
+			margin-top: 10px;
+			margin-bottom: 0px;
+			text-align: center;
+			font-weight: 700;
+			letter-spacing: 1px;
+			margin-left: 15px;
+
+			@include media (">=tablet") {
+				text-align: left;
+
+			}
+			}
+
+	.new-title {
+			color: $aqua-blue; 
+			text-transform: uppercase;
+			font-size: 1em;
+			margin-top: 10px;
+			margin-bottom: 0px;
+			text-align: center;
+			font-weight: 700;
+			letter-spacing: 1px;
+			line-height: 1.4;
+			margin-left: 15px;
+
+
+			@include media (">=tablet") {
+			text-align: left;
+			margin-top: 0px;
+			}
+		}
+	}
+}
+
+
+
+
+

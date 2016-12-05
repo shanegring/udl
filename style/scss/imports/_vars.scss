@@ -1,0 +1,45 @@
+//------------------------------------------------------------------------------
+// Color Palette
+
+$black: #344160;
+$blue: #11709f;
+$light-blue: #88d6e2;
+$aqua-blue: #43b1bc;
+$pink: #d88e7e;
+$brown: #c5a787;
+$yellow: #ecb95f;
+$green: #81ab68;
+$dark-blue: #1c6078;
+$dark-grey: #53565B;
+$light-gray: #E6E4E5;
+
+
+
+
+
+//------------------------------------------------------------------------------
+// Font Config
+
+$font-stack: "Museo Sans", Helvetica, sans-serif;
+$font-small: "filson-soft", Helvetica, sans-serif;
+
+$weight-thin:   100;
+$weight-normal: 400;     $weight-regular: $weight-normal;
+$weight-medium: 500;
+$weight-bold:   700;
+
+
+// Typography
+$font-size-base: 16px;
+$font-size-textbox: in-rems(18px);
+
+@function in-rems($px) {
+  // Convert a px unit (ie. from a design comp) into rems w/o doing math
+  @return #{($px / $font-size-base)}rem;
+}
+
+
+
+//------------------------------------------------------------------------------
+// Layout
+
