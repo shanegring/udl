@@ -10,10 +10,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style/css/main.css">
 
+        <link rel="stylesheet" href="style/css/font-awesome.css">
+
         <script src="style/js/bootstrap/bootstrap.js"></script>
 
-        <script src="https://use.typekit.net/rrc8neo.js"></script>
-        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+ 
 
 
     </head>
@@ -21,7 +24,67 @@
 
     <style>
 
+.demoPadder {
+    padding-top:15px;
+    font-family: 'Raleway', sans-serif;
 
+    }
+
+    .btn-submit {
+  color: #fff;
+  background-color: #337AB7;
+  border-color: #337AB7;
+  border-width: 2px; 
+}
+
+.btn-submit:hover, .btn-submit:focus, .btn-submit:active, .btn-submit.active {
+    color: #337AB7;
+  background-color: #fff;
+  border-color: #337AB7;
+  border-width: 2px; 
+    }
+
+    .btn-save {
+  color: #fff;
+  background-color: #9B9B9B;
+  border-color: #9B9B9B;
+  border-width: 2px;
+}
+
+.btn-save:hover, .btn-save:focus, .btn-save:active, .btn-save.active {
+    color: #9B9B9B;
+  background-color: #fff;
+  border-color: #9B9B9B;
+  border-width: 2px;
+    }
+
+   .btn-x {
+  color: #D9534F;
+  background-color: #fff;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.btn-x:hover, .btn-x:focus, .btn-x:active, .btn-x.active {
+    color: #fff;
+  background-color: #D9534F;
+  border-color: #D9534F;
+  border-width: 2px;
+    }
+
+        .btn-trash {
+  color: #fff;
+  background-color: #D9534F;
+  border-color: #D9534F;
+  border-width: 2px;
+}
+
+.btn-trash:hover, .btn-trash:focus, .btn-trash:active, .btn-trash.active {
+    color: #D9534F;
+  background-color: #fff;
+  border-color: #D9534F;
+  border-width: 2px;
+    }
 
 
     </style>
@@ -30,7 +93,21 @@
     <body>
 
 
+ <div class="demoPadder pull-right">
+      
 
+
+      <button type="button" class="btn btn-submit btn-lg" href="#">Save and Submit<i class="fa fa-cloud-upload" aria-hidden="true" style="padding-left: 15px"></i></button>
+
+      <button type="button" class="btn btn-save btn-lg" href="#">Save<i class="fa fa-floppy-o" aria-hidden="true" style="padding-left: 15px"></i></button>
+
+      <button type="button" class="btn btn-x btn-lg" href="#"><i class="fa fa-times" aria-hidden="true"></i></button>
+
+      <button type="button" class="btn btn-trash btn-lg" href="#">Delete<i class="fa fa-trash-o" aria-hidden="true" style="padding-left: 15px"></i></button>
+      
+    </div>
+
+</body>
 
 <!-- Navigation -->
 
